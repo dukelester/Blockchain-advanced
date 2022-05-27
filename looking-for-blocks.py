@@ -20,3 +20,6 @@ print(block_details, 'HERE block details\n\n')
 #get a block using the hash
 get_block_using_hash = web3.eth.get_block('0xe220b240d42e0573d0ee24b364c7bac179c58a060f778e5e9041a66272dc6e56')
 print(get_block_using_hash, 'Block using the hash, \n\n')
+
+new_block = web3.eth.get_block(14853688)
+print(new_block, 'The block from Etherscan \n\n')
